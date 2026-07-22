@@ -1,42 +1,45 @@
-# Intelligent-Wetland-Monitor
-Context-Aware Agentic AI framework for real-time wetland ecosystem health monitoring using satellite imagery, IoT sensor fusion, geospatial intelligence, and explainable AI.
-# Repository Structure
-Wetland-Guardian-AI/
+# Intelligent Wetland Monitor
 
+**Context-Aware Agentic AI framework for real-time wetland ecosystem health monitoring using satellite imagery, IoT sensor fusion, geospatial intelligence, and explainable AI.**
+
+## 📁 Repository Structure
+
+```text
+Wetland-Guardian-AI/
 │
 ├── frontend/
 │   ├── public/
 │   ├── src/
+│   │   ├── components/
+│   │   │   ├── dashboard/
+│   │   │   ├── map/
+│   │   │   ├── charts/
+│   │   │   ├── ai/
+│   │   │   ├── reports/
+│   │   │   └── common/
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Dashboard.tsx
+│   │   │   ├── Wetlands.tsx
+│   │   │   ├── Predictions.tsx
+│   │   │   ├── AIAgent.tsx
+│   │   │   ├── Reports.tsx
+│   │   │   └── Settings.tsx
+│   │   │
+│   │   └── App.tsx
 │   │
-│   ├── components/
-│   │     ├── dashboard/
-│   │     ├── map/
-│   │     ├── charts/
-│   │     ├── ai/
-│   │     ├── reports/
-│   │     └── common/
-│   │
-│   ├── pages/
-│   │     ├── Dashboard.tsx
-│   │     ├── Wetlands.tsx
-│   │     ├── Predictions.tsx
-│   │     ├── AIAgent.tsx
-│   │     ├── Reports.tsx
-│   │     └── Settings.tsx
-│   │
-│   └── App.tsx
+│   └── package.json
 │
 ├── backend/
 │   ├── app/
-│   │
-│   │── api/
-│   │── agents/
-│   │── models/
-│   │── services/
-│   │── utils/
-│   │── schemas/
-│   │── database/
-│   │── main.py
+│   │   ├── api/
+│   │   ├── agents/
+│   │   ├── models/
+│   │   ├── services/
+│   │   ├── utils/
+│   │   ├── schemas/
+│   │   ├── database/
+│   │   └── main.py
 │   │
 │   └── requirements.txt
 │
@@ -61,15 +64,14 @@ Wetland-Guardian-AI/
 │   └── paper.pdf
 │
 ├── notebooks/
-│
 ├── docker/
-│
 ├── deployment/
 │
 ├── .github/
-│    └── workflows/
+│   └── workflows/
 │
 ├── README.md
 ├── LICENSE
 ├── CONTRIBUTING.md
 └── CODE_OF_CONDUCT.md
+```
